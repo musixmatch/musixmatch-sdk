@@ -69,7 +69,7 @@ This is a server-side node client and makes use of the `require` module to inclu
 var MusixmatchApi = require('../../build/javascript-client/src/index')
 var defaultClient = MusixmatchApi.ApiClient.instance;
 var key = defaultClient.authentications['key'];
-key.apiKey = 'YOUR_API_KEY; // {String} 
+key.apiKey = "YOUR_API_KEY"; // {String} 
 var opts = {
     format: "json", // {String} output format: json, jsonp, xml.
 };
