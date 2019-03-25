@@ -12,7 +12,7 @@ All you need to do is [register](https://developer.musixmatch.com/signup) in ord
 Check it out at https://developer.musixmatch.com/
 
 ## Musixmatch OpenAPI Specification
-We provide a [OpenAPI](https://openapis.org/) specification for the [Musixmatch API](https://developer.musixmatch.com/) based on the [Swagger](http://swagger.io/) api framework.
+We provide an [OpenAPI](https://openapis.org/) specification for the [Musixmatch API](https://developer.musixmatch.com/) based on the [Swagger](http://swagger.io/) api framework.
 
 ### Musixmatch OpenAPI Playground
 We host a API [playground](https://playground.musixmatch.com/) to try out the Musixmatch API directly in your browser. For each SDK client provided here, we have a example application ready to execute in most of cases.
