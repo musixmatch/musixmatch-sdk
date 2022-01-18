@@ -14,8 +14,8 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 if len(sys.argv) <= 1:
-    print "\nUsage: python musixmatch.py YOUR_API_KEY";
-    exit();
+    print("\nUsage: python musixmatch.py YOUR_API_KEY")
+    exit()
 
 # str | Account api key, to be used in every api call
 swagger_client.configuration.api_key['apikey'] = sys.argv[1]
@@ -30,4 +30,4 @@ try:
     api_response = api_instance.album_get_get(album_id, format=format)
     pprint(api_response)
 except ApiException as e:
-    print "Exception when calling DefaultApi->album_get_get: %s\n" % e
+    print("Exception when calling DefaultApi->album_get_get: %s\n" % e)
